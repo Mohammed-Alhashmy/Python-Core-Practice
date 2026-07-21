@@ -32,7 +32,6 @@ class Member :
     
 member_One = Member("Mohammed", "Sadiq", "Haider", "male")
 member_Two = Member("Mona", "Ahmed", "Kira", "female")
-member_Three = Member("Ali", "Omer", "Zaki", "male")
 
 # print(member_Two.full_name())
 # print(member_Two.say_hello())
