@@ -16,7 +16,7 @@ cr.execute("select user_id, name from users")
 # print(cr.fetchone())
 # print(cr.fetchone())
 # print(cr.fetchone())
-#print(cr.fetchall())
+# print(cr.fetchall())
 print(cr.fetchmany(2))
 
 
