@@ -38,21 +38,54 @@ command_list = ["s", "a", "d", "u", "q"]
 #Define methods
 def show_skills():
 
-    print("Show Skills")
+    cr.execute(f"select * from skills where user_id = '{uid}'")
+
+    results = cr.fetchall()
+
+    print(f"You have Right Now {len(results)} Skills")
+
+    if len(results)>0:
+
+        print("The Skills And The progress is : ")
+
+    for row in results :
+
+        print(f"Skills ===> {row[0]}")
+
+        print(f"Progress ===> {row[1]}")
 
     commit_and_closed()
 
-def add_new_skill():
+def add_new_skill(): #Done
 
     sk_name = input("Please Enter Your New Skill : ").capitalize().strip()
 
-    prog = input("Please Enter Your Progress : ").strip()
+    cr.execute(f"select name from skills where name = '{sk_name}' and user_id = '{uid}'")
 
-    cr.execute(f"insert into skills(name, progress, user_id) values('{sk_name}', '{prog}', '{uid}')")
+    results = cr.fetchone()
+
+    
+
+    if results == None :
+
+        prog = input("Please Enter Your Progress : ").strip()
+        
+        cr.execute(f"insert into skills(name, progress, user_id) values('{sk_name}', '{prog}', '{uid}')")
+        
+    else:
+        print("Sorry You Cant Add Skill Twice ")
+        
+    a = input("Do You Want To Update It ? (y/n) ").strip().lower()
+
+    if a == "y" or a == "yes":
+
+      prog = input("Write The New Skill Progress ").strip()
+
+      cr.execute(f"update skills set progress = '{prog}' where name = '{sk}' and user_id = '{uid}'")
 
     commit_and_closed()
 
-def delete_skills():
+def delete_skills(): #Done
 
     sk_name = input("Please Enter The Skill You Want to deleted : ").capitalize().strip()
 
@@ -62,7 +95,11 @@ def delete_skills():
 
 def update_skill_progress():
 
-    print("Update Skill Progress")
+    sk_name = input("Please Enter Your Skill You Want To Updated : ").capitalize().strip()
+
+    newProg = input("Please Enter The New Skill Progress : ").strip()
+
+    cr.execute(f"Update Skills set progress = '{newProg}' where name = '{sk_name}' and user_id = '{uid}'")
     
     commit_and_closed()
 
@@ -87,6 +124,7 @@ if user_input in command_list :
 
     else:
         print("App Is Closed ..")
+        commit_and_closed()
 
 
 
