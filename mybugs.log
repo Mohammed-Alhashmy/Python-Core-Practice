@@ -1,0 +1,36 @@
+(time = 2026-08-09 16:51:53,858) {Log_name = root} {level_name = ERROR} --> message = This Is Error Message <--
+(time = 2026-08-09 16:51:57,244) {Log_name = root} {level_name = ERROR} --> message = This Is Error Message <--
+(time = 2026-08-09 16:51:58,654) {Log_name = root} {level_name = ERROR} --> message = This Is Error Message <--
+(time = 2026-08-09 16:52:06,738) {Log_name = root} {level_name = WARNING} --> message = This Is Warning Message <--
+(time = 2026-08-09 16:52:08,326) {Log_name = root} {level_name = WARNING} --> message = This Is Warning Message <--
+(time = 2026-08-09 16:52:08,477) {Log_name = root} {level_name = WARNING} --> message = This Is Warning Message <--
+(time = 2026-08-09 16:52:22,052) {Log_name = root} {level_name = CRITICAL} --> message = This Is Critical Message <--
+(time = 2026-08-09 16:52:22,483) {Log_name = root} {level_name = CRITICAL} --> message = This Is Critical Message <--
+(time = 2026-08-09 16:52:22,636) {Log_name = root} {level_name = CRITICAL} --> message = This Is Critical Message <--
+(time = 2026-08-09 16:53:29,176) {Log_name = root} {level_name = ERROR} --> message = This Is Error Message <--
+(time = 2026-08-09 16:53:29,176) {Log_name = root} {level_name = WARNING} --> message = This Is Warning Message <--
+(time = 2026-08-09 16:53:29,176) {Log_name = root} {level_name = CRITICAL} --> message = This Is Critical Message <--
+(time = 2026-08-09 16:53:29,758) {Log_name = root} {level_name = ERROR} --> message = This Is Error Message <--
+(time = 2026-08-09 16:53:29,759) {Log_name = root} {level_name = WARNING} --> message = This Is Warning Message <--
+(time = 2026-08-09 16:53:29,759) {Log_name = root} {level_name = CRITICAL} --> message = This Is Critical Message <--
+(time = 09 - August - 2026 :16 58 42) {Log_name = root} {level_name = ERROR} --> message = This Is Error Message <--
+(time = 09 - August - 2026 :16 58 42) {Log_name = root} {level_name = WARNING} --> message = This Is Warning Message <--
+(time = 09 - August - 2026 :16 58 42) {Log_name = root} {level_name = CRITICAL} --> message = This Is Critical Message <--
+(time = 09/August/2026 :16 59 52) {Log_name = root} {level_name = ERROR} --> message = This Is Error Message <--
+(time = 09/August/2026 :16 59 52) {Log_name = root} {level_name = WARNING} --> message = This Is Warning Message <--
+(time = 09/August/2026 :16 59 52) {Log_name = root} {level_name = CRITICAL} --> message = This Is Critical Message <--
+(time = 09 \ August \ 2026 :17 00 17) {Log_name = root} {level_name = ERROR} --> message = This Is Error Message <--
+(time = 09 \ August \ 2026 :17 00 17) {Log_name = root} {level_name = WARNING} --> message = This Is Warning Message <--
+(time = 09 \ August \ 2026 :17 00 17) {Log_name = root} {level_name = CRITICAL} --> message = This Is Critical Message <--
+(time = 09\sAugust\s2026 :17 00 33) {Log_name = root} {level_name = ERROR} --> message = This Is Error Message <--
+(time = 09\sAugust\s2026 :17 00 33) {Log_name = root} {level_name = WARNING} --> message = This Is Warning Message <--
+(time = 09\sAugust\s2026 :17 00 33) {Log_name = root} {level_name = CRITICAL} --> message = This Is Critical Message <--
+(time = 09 / August / 2026 :17 00 53) {Log_name = root} {level_name = ERROR} --> message = This Is Error Message <--
+(time = 09 / August / 2026 :17 00 53) {Log_name = root} {level_name = WARNING} --> message = This Is Warning Message <--
+(time = 09 / August / 2026 :17 00 53) {Log_name = root} {level_name = CRITICAL} --> message = This Is Critical Message <--
+(time = 09 / August / 2026 :17 03 10) {Log_name = root} {level_name = ERROR} --> message = This Is Error Message <--
+(time = 09 / August / 2026 :17 03 10) {Log_name = root} {level_name = WARNING} --> message = This Is Warning Message <--
+(time = 09 / August / 2026 :17 03 10) {Log_name = root} {level_name = CRITICAL} --> message = This Is Critical Message <--
+(time = 09 / August / 2026 :17 03 34) {Log_name = ugn_Logger} {level_name = ERROR} --> message = This Is Error Message <--
+(time = 09 / August / 2026 :17 03 34) {Log_name = ugn_Logger} {level_name = WARNING} --> message = This Is Warning Message <--
+(time = 09 / August / 2026 :17 03 34) {Log_name = ugn_Logger} {level_name = CRITICAL} --> message = This Is Critical Message <--
