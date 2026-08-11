@@ -28,11 +28,11 @@ class MyTestClass(unittest.TestCase):
 
     def test_one(self):
 
-        self.assertTrue(100 > 50 , "Must True")
+        self.assertTrue(100 > 50 , "Must be True")
 
     def test_two(self):
 
-        self.assertEqual(5 * 5, 25, "Should be 25")
+        self.assertEqual(5 * 5, 25, "Must be 25")
 
     def test_three(self):
 
