@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 
 my_skill = Flask(__name__)
 
@@ -7,12 +7,12 @@ my_skill = Flask(__name__)
 @my_skill.route("/")
 def homepage():
 
-    return("Hello To Our Page")
+    return render_template("homepage.html", pt="Home-Page")
 
 @my_skill.route("/about")
 def about():
 
-    return("This Is My Testing Page .")
+    return render_template("aboutpage.html", pt="About-Page")
 
 if __name__ == "__main__":
     my_skill.run(debug=True)
