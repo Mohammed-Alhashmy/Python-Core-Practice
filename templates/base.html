@@ -4,10 +4,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{pt}}</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"/>
+        <link rel="stylesheet" href=" {{ url_for('static', filename='css/master.css') }} "/>
     </head>
     <body>
-        {% block body %}
         
+
+        {% block body %}S
         {% endblock %}
     </body>
 </html>
