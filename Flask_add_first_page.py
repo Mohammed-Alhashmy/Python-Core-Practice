@@ -14,10 +14,10 @@ def about():
 
     return render_template("aboutpage.html", pt="About-Page", )
 
-@my_skill.route("/settings")
-def settings():
+@my_skill.route("/myskill")
+def myskill():
 
-    return render_template("settings.html", pt="settings-Page")
+    return render_template("Test_myskill.html", pt="myskill-page", custom_css="myskill")
 
 
 if __name__ == "__main__":
