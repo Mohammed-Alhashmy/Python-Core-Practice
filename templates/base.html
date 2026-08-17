@@ -8,8 +8,7 @@
         <link rel="stylesheet" href=" {{ url_for('static', filename='css/master.css') }} "/>
         {% if custom_css %}
         <link rel="stylesheet" href=" {{ url_for('static', filename='css/' + custom_css + '.css') }} " />
-        {% elif custom_css1 %}
-        <link rel="stylesheet" href=" {{ url_for('static', filename='css/' + custom_css1 + '.css') }} " />
+
         {% endif %}
     </head>
     <body>

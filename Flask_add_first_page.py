@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 
-mylist=[("Python", 70), ("Html", 40), ("CSS", 23)]
+mylist=[("Python", 70), ("Html", 40), ("CSS", 23), ("MySQL", 5)]
 
 
 my_skill = Flask(__name__)
@@ -27,7 +27,7 @@ def addskills():
 
     return render_template("myskills.html", 
                            pt="Skills-Page",
-                           custom_css1="skill_page",
+                           custom_css="skill_page",
                            page_head="My Skills", 
                            description="Here is my skills page ",
                            myData=mylist)

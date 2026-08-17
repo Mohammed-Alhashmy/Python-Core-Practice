@@ -1,3 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+
 body{
-    background-color: darkslategray;
+    background-color: #eee;
+    font-family: Arial,Tahoma, ;
+}
+
+.page-head,
+.description {
+    text-align: center;
+}
+
+.page-head{
+    font-size: 47px;
+    margin: 35 0 0 ;
+}
+
+.description{
+    font-size: 29px;
+    margin: 25px 0 45px ;
+
 }

@@ -1,13 +1,17 @@
 {% extends 'base.html' %}
 
         {% block body %}
-        <h1 class="page head">{{ page_head }}</h1>
+        <h1 class="page-head">{{ page_head }}</h1>
         <p class="description">{{ description }}</p>
         
 
         {% for skill in myData %}
-        <div>
-            <- {{ skill[0] }} -> Progress :  ({{skill[1] }})
+        <div class="skill-box">
+            <div class="skill-name"> {{ skill[0] }} </div>
+            <div class="skill-progress">
+                <span style="width: {{ skill[1] }}%"></span>
+            </div>
+            
         </div>
         {% endfor %}
 
