@@ -1,6 +1,7 @@
 from flask import Flask, render_template
 
-mylist=[("Python", 70), ("Html", 40), ("CSS", 23), ("MySQL", 5)]
+
+mylist=[("Python", 65), ("Html", 5), ("CSS", 5), ("MySQL", 5)]
 
 
 my_skill = Flask(__name__)
@@ -8,12 +9,14 @@ my_skill = Flask(__name__)
 @my_skill.route("/")
 def homepage():
 
-    return render_template("homepage.html", pt="Home-Page", )
+    return render_template("homepage.html", 
+                           pt="Home-Page", )
 
 @my_skill.route("/about")
 def about():
 
-    return render_template("aboutpage.html", pt="About-Page", )
+    return render_template("aboutpage.html", 
+                           pt="About-Page", )
 
 @my_skill.route("/add")
 def add():

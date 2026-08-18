@@ -1,8 +1,8 @@
 body{
-    background-color: #0F3040;
+    background-color: #5C8374;
 }
 .skill-box{
-    background-color: #464858;
+    background-color: #183D3D;
     padding: 15px;
     margin: 20px auto;
     border: 2px solid #0f0e0e;
@@ -16,7 +16,7 @@ body{
     font-size: 20px;
     margin-bottom: 12px;
     font-weight: bold;
-    color: #A56F63;
+    color: #93B1A6;
 
 }
 
@@ -34,7 +34,7 @@ body{
     top: 0;
     width: 0%;
     height: 100%;
-    background-color: #D99B7F;
+    background-color: #040D12;
     
 }
 

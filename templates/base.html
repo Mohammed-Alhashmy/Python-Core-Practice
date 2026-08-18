@@ -13,8 +13,11 @@
     </head>
     <body>
         
-
         {% block body %}S
         {% endblock %}
+
+        <script src="https://code.jquery.com/jquery-4.0.0-beta.min.js"></script>
+
+        <script src=" {{ url_for('static', filename='js/main.js') }} "></script>
     </body>
 </html>
